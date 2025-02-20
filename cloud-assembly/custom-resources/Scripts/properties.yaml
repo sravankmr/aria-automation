@@ -14,7 +14,7 @@ properties:
   install:
     type: string
     title: Install Scripts
-    description: Only run script when first deployed
+    description: Only run script when first deployed [post scripts]
     default: ''
   outputs:
     type: string
@@ -36,7 +36,7 @@ properties:
   username:
     type: string
     title: Username
-    description: Username in vm to run scripts
+    description: Username in vms to run scripts
   configure:
     type: string
     title: Configure Scripts
