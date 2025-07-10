@@ -1,0 +1,13 @@
+---
+exportVersion: "1"
+exportId: "8a74808f849a684d01849aaffaf1002d"
+name: "Custom.SSH.delete()"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  secret:8a74808f849a684d01849aaea9ea0010: ""
+timeoutSeconds: 900
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+memoryInMB: 512
