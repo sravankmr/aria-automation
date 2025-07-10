@@ -170,7 +170,7 @@ cat /tmp/{id}.output 2>/dev/null
                         inputs['state'] = 'Completed'
                         break
                    # elif state == 'failed': raise Exception(res['content-exception'])
-                time.sleep(2)
+               # time.sleep(2)
             else: raise Exception('command timeout')
     
     # publish resource
