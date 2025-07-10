@@ -169,9 +169,9 @@ cat /tmp/{id}.output 2>/dev/null
                         inputs['outputs'] = output
                         inputs['state'] = 'Completed'
                         break
-                    elif state == 'failed': raise Exception(res['content-exception'])
+                   # elif state == 'failed': raise Exception(res['content-exception'])
                 time.sleep(2)
-            else: raise Exception('commands timeout')
+            else: raise Exception('command timeout')
     
     # publish resource
     outputs = inputs
